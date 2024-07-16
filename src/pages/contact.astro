@@ -1,0 +1,49 @@
+---
+import MainLayout from "@/layouts/main-layout.astro";
+import { Image } from "astro:assets";
+import { hobbies } from "@/config/about.ts";
+import { Button } from "@/components/ui/button";
+import { Icon } from "astro-icon/components";
+---
+
+<MainLayout title="About" description="Lorem ipsum dolor sit amet">
+  <section class="space-y-5">
+    <section
+      class="relative container max-w-screen-md mb-28 mt-16 sm:mt-20 lg:mt-28"
+    >
+      <div class="flex h-full flex-col justify-between">
+        <div class="grid gap-8 sm:grid-cols-2">
+          <div>
+            <h1 class="text-4xl font-heading text-foreground">jdbohrman</h1>
+            <p class="text-base text-muted-foreground mt-0.5">
+              Manic Funny Man | Watermelon Lover 🍉🍉🍉.
+            </p>
+          </div>
+          <div>
+            <p class="mb-12 text-base text-muted-foreground">
+              Hello! I'm James, the creator of Happybase, happy to answer any questions you may have.
+              <br />
+              What's up with you?
+            </p>
+            <div class="flex items-center gap-3">
+              <Button className="rounded-xl">
+                <img src="https://asset.brandfetch.io/id6Zq084G_/idZmM-U_pP.svg" class="mr-2 size-4" />
+                <a href="mailto:">Talk with me</a>
+              </Button>
+
+              <Button variant="outline" className="rounded-xl">
+                <Icon name="lucide:briefcase" class="mr-2.5 size-4" />
+                <a href="https://www.github.com.jdbohrman/" target="_blank">My works</a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</MainLayout>

@@ -16,7 +16,6 @@ import type { MenuItem } from "@/types";
 
 const links = navMenuConfig.links;
 const pages = navMenuConfig.pagesNav[0];
-const examples = navMenuConfig.examplesNav[0];
 
 export function MainNavigationMenu() {
   return (
@@ -32,7 +31,7 @@ export function MainNavigationMenu() {
                   href="/"
                 >
                   <Icons.logo className="size-8" />
-                  <div className="mb-2 mt-3 text-lg font-medium">Astronomy</div>
+                  <div className="mb-2 mt-3 text-lg font-medium">Happybase</div>
                   <p className="text-sm leading-tight text-muted-foreground">
                     Pages and examples apps built with Astro v4.5,
                     shadcn/ui & react js.
@@ -55,17 +54,6 @@ export function MainNavigationMenu() {
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {pages.items?.map((page) => (
                 <ListItem key={page.title} {...page} />
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>{examples.title}</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-              {examples.items?.map((example) => (
-                <ListItem key={example.title} {...example} />
               ))}
             </ul>
           </NavigationMenuContent>

@@ -1,14 +1,14 @@
 import type { SidebarNavItem, SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
-  name: "Astronomy",
+  name: "Happybase",
   description:
-    "An modern example app built using Astro v4 & shadcn/ui. Inspired by shadcn/taxonomy.",
-  url: "https://astro-nomy.vercel.app",
+    "Collaborative SQL documents for teams of all sizes ",
+  url: "https://www.happybase.co",
   ogImage: "https://astro-nomy.vercel.app/og.jpg",
   links: {
-    twitter: "https://twitter.com/miickasmt",
-    github: "https://github.com/mickasmt/astro-nomy",
+    twitter: "",
+    github: "https://github.com/happycharts/happybase",
   },
 };
 
@@ -16,28 +16,24 @@ export const footerLinks: SidebarNavItem[] = [
   {
     title: "Company",
     items: [
-      { title: "About", href: "#" },
-      { title: "Enterprise", href: "#" },
-      { title: "Partners", href: "#" },
-      { title: "Jobs", href: "#" },
+      { title: "Pricing", href: "/pricing" },
+      { title: "About", href: "/about" },
+      { title: "Roadmap", href: "https://github.com/happycharts/happybase/" },
     ],
   },
   {
-    title: "Product",
+    title: "Legal",
     items: [
-      { title: "Security", href: "#" },
-      { title: "Customization", href: "#" },
-      { title: "Customers", href: "#" },
-      { title: "Changelog", href: "#" },
+      { title: "Terms", href: "/privacy" },
+      { title: "Privacy", href: "/privacy" },
     ],
   },
   {
-    title: "Docs",
+    title: "OSS",
     items: [
-      { title: "Introduction", href: "#" },
-      { title: "Installation", href: "#" },
-      { title: "Components", href: "#" },
-      { title: "Code Blocks", href: "#" },
+      { title: "Contributors", href: "/contributors" },
+      { title: "Github", href: "https://github.com/happycharts/happybase" },
+      { title: "Discord", href: "https://discord.gg/fQ9s8h8" },
     ],
   },
 ];

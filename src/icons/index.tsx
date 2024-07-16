@@ -37,8 +37,8 @@ export const Icons = {
       strokeWidth="0"
       viewBox="0 0 20 20"
       aria-hidden="true"
-      height="20px"
-      width="20px"
+      height="20"
+      width="20"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
@@ -55,8 +55,8 @@ export const Icons = {
   wrenchSrewdriver: ({ ...props }: LucideProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="1em"
-      height="1em"
+      width="20"
+      height="20"
       viewBox="0 0 24 24"
       {...props}
     >

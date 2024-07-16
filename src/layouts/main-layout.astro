@@ -37,7 +37,6 @@ const { title, description, mainClass } = Astro.props;
       mainNavItems={[...navMenuConfig.links]}
       sidebarNavItems={[
         ...navMenuConfig.pagesNav,
-        ...navMenuConfig.examplesNav,
       ]}
       slot="mobile-nav-header"
       client:load
@@ -52,7 +51,6 @@ const { title, description, mainClass } = Astro.props;
       >
         <Icon name="github" class="size-[22px]" />
       </a>
-      <ThemeToggle client:load />
     </div>
   </Header>
 

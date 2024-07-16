@@ -11,12 +11,12 @@ import { Icon } from "astro-icon/components";
   >
     <div class="mx-auto flex w-full flex-col gap-4 md:max-w-[58rem]">
       <h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
-        Simple, transparent pricing
+        Get started with Happybase Pro!
       </h2>
       <p
         class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"
       >
-        Unlock all features including unlimited posts for your blog.
+        Our plans are designed to be as simple as possible with a focus on value.
       </p>
     </div>
     <div
@@ -24,47 +24,43 @@ import { Icon } from "astro-icon/components";
     >
       <div class="grid gap-6">
         <h3 class="text-xl font-bold sm:text-2xl">
-          What&apos;s included in the PRO plan
+          What&apos;s included with our cloud 
         </h3>
         <ul class="grid gap-3 text-sm text-muted-foreground sm:grid-cols-2">
           <li class="flex items-center">
-            <Icon name="lucide:check" class="mr-2 size-4" /> Unlimited Posts
-          </li>
-          <li class="flex items-center">
             <Icon name="lucide:check" class="mr-2 size-4" /> Unlimited Users
           </li>
-
           <li class="flex items-center">
-            <Icon name="lucide:check" class="mr-2 size-4" /> Custom domain
-          </li>
-          <li class="flex items-center">
-            <Icon name="lucide:check" class="mr-2 size-4" /> Dashboard Analytics
-          </li>
-          <li class="flex items-center">
-            <Icon name="lucide:check" class="mr-2 size-4" /> Access to Discord
+            <Icon name="lucide:check" class="mr-2 size-4" /> 40+ Supported Data sources
           </li>
           <li class="flex items-center">
             <Icon name="lucide:check" class="mr-2 size-4" /> Premium Support
+          </li>
+
+          <li class="flex items-center">
+            <Icon name="lucide:check" class="mr-2 size-4" /> React components from SQL (On roadmap)
+          </li>
+          <li class="flex items-center">
+            <Icon name="lucide:check" class="mr-2 size-4" /> First class support for SQL
+          </li>
+          <li class="flex items-center">
+            <Icon name="lucide:check" class="mr-2 size-4" /> Realtime collaboration
           </li>
         </ul>
       </div>
       <div class="flex flex-col gap-4 text-center">
         <div>
-          <h4 class="text-7xl font-bold">$19</h4>
+          <h4 class="text-7xl font-bold">$310</h4>
           <p class="text-sm font-medium text-muted-foreground">
             Billed Monthly
           </p>
         </div>
-        <a href="/login" class={cn(buttonVariants({ size: "lg" }))}>
+        <a href="https://app.happybase.co/auth/signup" class={cn(buttonVariants({ size: "lg" }))}>
           Get Started
         </a>
       </div>
     </div>
     <div class="mx-auto flex w-full max-w-[58rem] flex-col gap-4">
-      <p class="max-w-[85%] leading-normal text-muted-foreground sm:leading-7">
-        Astronomy is a demo app.{" "}
-        <strong>You can test the upgrade and won&apos;t be charged.</strong>
-      </p>
     </div>
   </section>
 </MainLayout>
