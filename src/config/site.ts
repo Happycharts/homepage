@@ -30,7 +30,6 @@ export const footerLinks: SidebarNavItem[] = [
   {
     title: "Alternative To:",
     items: [
-      { title: "Census Embedded", href: "/vs/census-embedded" },
       { title: "Prequel", href: "/vs/prequel" },
     ],
   },

@@ -3,20 +3,8 @@ import type { NavMenuConfig } from "@/types";
 export const navMenuConfig: NavMenuConfig = {
   pagesNav: [
     {
-      title: "Explore",
+      title: "About",
       items: [
-        {
-          title: "First-party Data Sales",
-          href: "/use-cases/first-party-data-sales",
-          description: "Find out more about Happybase on our Github.",
-          image: "/images/examples/landing.jpg",
-        },
-        {
-          title: "Discord",
-          href: "https://discord.gg/TjJxa93JBY",
-          description: "Join our growing Discord community for data professionals",
-          image: "/images/examples/changelog.jpg",
-        },
         {
           title: "Contact",
           href: "/contact",
@@ -37,9 +25,9 @@ export const navMenuConfig: NavMenuConfig = {
   ],
   links: [
      {
-       title: "Example",
-       href: "/example",
-       description: "Example description",
+       title: "Documentation",
+       href: "/docs/getting-started/",
+       description: "Learn more about the features and how to use them.",
        image: "/images/examples/image.jpg",
      },
   ],
