@@ -18,13 +18,12 @@ export const footerLinks: SidebarNavItem[] = [
     items: [
       { title: "Pricing", href: "/pricing" },
       { title: "About", href: "/about" },
-      { title: "Roadmap", href: "https://github.com/happycharts/happybase/" },
     ],
   },
   {
     title: "Legal",
     items: [
-      { title: "Terms", href: "/privacy" },
+      { title: "Terms", href: "/terms" },
       { title: "Privacy", href: "/privacy" },
     ],
   },
