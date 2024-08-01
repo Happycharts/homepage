@@ -3,7 +3,7 @@ import type { SidebarNavItem, SiteConfig } from "@/types";
 export const siteConfig: SiteConfig = {
   name: "Happybase",
   description:
-    "Collaborative SQL documents for teams of all sizes ",
+    "Client-side data-sharing fit for security aware teams ",
   url: "https://www.happybase.co",
   ogImage: "https://astro-nomy.vercel.app/og.jpg",
   links: {
@@ -29,11 +29,10 @@ export const footerLinks: SidebarNavItem[] = [
     ],
   },
   {
-    title: "OSS",
+    title: "Alternative To:",
     items: [
-      { title: "Contributors", href: "/contributors" },
-      { title: "Github", href: "https://github.com/happycharts/happybase" },
-      { title: "Discord", href: "https://discord.gg/fQ9s8h8" },
+      { title: "Census Embedded", href: "/vs/census-embedded" },
+      { title: "Prequel", href: "/vs/prequel" },
     ],
   },
 ];

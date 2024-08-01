@@ -2,26 +2,26 @@ import type { InfoLdg } from "@/types";
 
 export const infos: InfoLdg[] = [
   {
-    title: "Break through the organizational noise",
+    title: "Replicating your entire warehouse isn't the way to go",
     description:
-      "Happybase allows your team to rally up on documents and collaborate over data strategy in real-time",
+      "Happybase allows you to turn your data into an asset, and safely control who can access it.",
     image: "/images/blog/placeholder-about.jpg",
     list: [
       {
+        title: "Secure",
+        description: "Enjoy the peace of mind knowing the you aren't replicating your entire warehouse to someone elses infrastructure.",
+        icon: "lucide:lock",
+      },
+      {
         title: "Collaborative",
-        description: "Work together with your team members in real-time.",
-        icon: "lucide:laptop",
+        description: "It's not just an endpoint, it's a collaborative ecosystem for external data partnerships.",
+        icon: "lucide:sprout",
       },
       {
-        title: "Innovative",
-        description: "Stay ahead of the curve with access constant updates.",
-        icon: "lucide:settings",
-      },
-      {
-        title: "Scalable",
+        title: "Flexible",
         description:
-          "Our platform offers the scalability needed to adapt to your needs.",
-        icon: "lucide:search",
+          "Our platform is built to be flexible and scalable, allowing you to adapt to your changing needs.",
+        icon: "lucide:expand",
       },
     ],
   },
@@ -56,35 +56,35 @@ export const features = [
   {
     title: "Realtime Collaboration",
     description:
-      "See your teammates' activities in real-time, and stay informed with our integrated chat.",
+      "Embed your apps in an iframe and share it with external stakeholders.",
     link: "/pricing",
     icon: "lucide:zap",
   },
   {
-    title: "Comments",
+    title: "Access Control",
     description:
-      "Comment on SQL documents and data plans, and see your teammates' comments asynchronously.",
+      "Control who can access your data and documents with granular permissions.",
     link: "/pricing",
-    icon: "lucide:message-circle",
+    icon: "lucide:lock",
   },
   {
-    title: "SQL Execution",
+    title: "Give query access to partners, customers, and LLM providers",
     description:
-      "Execute SQL queries and see the results in real-time.",
-    link: "/pricing",
-    icon: "lucide:database-zap",
-  },
-  {
-    title: "Semantic Layer Connections",
-    description:
-      "Connect to semantic layers such as Cube and DBT to get insights into your data.",
+      "Allow your partners, customers, and LLM providers to query your sementic layer to get insights into your data.",
     link: "/pricing",
     icon: "lucide:layers",
   },
   {
+    title: "Embedded Paywall via Stripe Connect",
+    description:
+      "Turn your data into a product and sell access to it via our Stripe Connect integration.",
+    link: "/pricing",
+    icon: "lucide:badge-dollar-sign",
+  },
+  {
     title: "Presence",
     description:
-      "See when your teammates are active in a document and see their work in reamtime",
+      "Work on data initiatives togther with external partners and customers.",
     link: "/pricing",
     icon: "lucide:scan-eye",
   },

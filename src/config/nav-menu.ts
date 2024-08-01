@@ -6,8 +6,8 @@ export const navMenuConfig: NavMenuConfig = {
       title: "Explore",
       items: [
         {
-          title: "Github",
-          href: "https://github.com/happycharts/happybase",
+          title: "First-party Data Sales",
+          href: "/use-cases/first-party-data-sales",
           description: "Find out more about Happybase on our Github.",
           image: "/images/examples/landing.jpg",
         },
@@ -33,13 +33,14 @@ export const navMenuConfig: NavMenuConfig = {
         },
       ],
     },
+
   ],
   links: [
-    // {
-    //   title: "Example",
-    //   href: "/example",
-    //   description: "Example description",
-    //   image: "/images/examples/image.jpg",
-    // },
+     {
+       title: "Example",
+       href: "/example",
+       description: "Example description",
+       image: "/images/examples/image.jpg",
+     },
   ],
 };
