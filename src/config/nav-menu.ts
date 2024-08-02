@@ -19,6 +19,22 @@ export const navMenuConfig: NavMenuConfig = {
           description: "Pricing cards, FAQs and more content with price.",
           image: "/images/examples/pricing.jpg",
         },
+        {
+          title: "Hex Example",
+          href: "https://app.happybase.cp/portal/hex-example",
+          description:
+            "Check out the demonstration Hex portal",
+          image: "/images/examples/waitlist.jpg",
+          forceReload: true,
+        },
+        {
+          title: "Observable Example (Coming soon!)",
+          href: "",
+          description:
+            "Check out the demonstration Observable portal",
+          image: "/images/examples/waitlist.jpg",
+          forceReload: true,
+        },
       ],
     },
 

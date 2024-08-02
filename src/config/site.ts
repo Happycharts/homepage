@@ -28,9 +28,10 @@ export const footerLinks: SidebarNavItem[] = [
     ],
   },
   {
-    title: "Alternative To:",
+    title: "Open Source",
     items: [
-      { title: "Prequel", href: "/vs/prequel" },
+      { title: "Documentation", href: "/docs/getting-started/" },
+      { title: "GitHub", href: "https://github.com/happycharts/happybase" },
     ],
   },
 ];
