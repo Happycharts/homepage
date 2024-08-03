@@ -3,9 +3,9 @@ import type { SidebarNavItem, SiteConfig } from "@/types";
 export const siteConfig: SiteConfig = {
   name: "Happybase",
   description:
-    "Client-side data-sharing fit for security aware teams ",
+    "Endlessly flexible access portals for commercializing your data ",
   url: "https://www.happybase.co",
-  ogImage: "https://astro-nomy.vercel.app/og.jpg",
+  ogImage: "https://www.happybase.co/og.jpg",
   links: {
     twitter: "",
     github: "https://github.com/happycharts/happybase",
