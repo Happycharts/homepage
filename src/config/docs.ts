@@ -59,45 +59,5 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
-    {
-      title: "Examples",
-      items: [
-        // {
-        //   title: "Introduction",
-        //   href: "/docs/in-progress",
-        //   disabled: true,
-        // },
-        {
-          title: "Static Blog",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-        {
-          title: "Docs & Guides",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-        {
-          title: "Blog with Astro DB",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-        {
-          title: "Ecommerce",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-        {
-          title: "Animes (GraphQL)",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-        {
-          title: "Authentification (Lucia)",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-      ],
-    },
   ],
 };
