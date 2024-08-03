@@ -1,0 +1,60 @@
+---
+title: Architecture
+description: How does it work?
+---
+
+Happybase is built around a few key concepts that make it a powerful and secure data-sharing platform. These concepts include IFrame Portals, JWT (JSON Web Tokens), and a Semantic Layer. Let's dive into each of these components to understand how they work together to create a robust and user-friendly platform.
+
+## IFrame Portals
+
+### What are IFrame Portals?
+
+IFrame Portals are a fundamental component of Happybase. They leverage the HTML `<iframe>` element to create isolated, secure environments for data sharing. This approach ensures that data from different sources remains separate and secure, preventing any unintended interactions or data leaks.
+
+### How IFrame Portals Work
+
+1. **Isolation**: Each IFrame Portal operates as an independent web page within the main Happybase interface. This isolation ensures that scripts and styles from one portal do not interfere with others.
+2. **Security**: IFrame Portals use sandboxing techniques to enforce security policies. This means that even if a portal contains malicious code, it cannot affect the main application or other portals.
+3. **Customization**: IFrame Portals can be customized to fit the specific needs of different users or data sources. This flexibility allows for a tailored experience that meets the unique requirements of various applications.
+
+### Benefits of IFrame Portals
+
+- **Enhanced Security**: By isolating data and code, IFrame Portals significantly reduce the risk of security breaches.
+- **Flexibility**: The ability to customize each portal allows for a wide range of applications and use cases.
+- **Ease of Integration**: IFrame Portals can easily integrate with existing web applications, making it simple to add data-sharing capabilities to your current systems.
+
+## JWT (JSON Web Tokens)
+
+### What is JWT?
+
+JWT (JSON Web Tokens) is a compact, URL-safe means of representing claims to be transferred between two parties. In the context of Happybase, JWT is used for authentication and authorization, ensuring that only authorized users can access specific data.
+
+### How JWT Works
+
+1. **Token Generation**: When a user logs in, Happybase generates a JWT that contains information about the user's identity and permissions.
+2. **Token Structure**: A JWT consists of three parts: the header, the payload, and the signature. The header and payload are JSON objects that are Base64Url encoded, while the signature ensures the token's integrity.
+3. **Token Verification**: When a user makes a request to access data, the JWT is sent along with the request. Happybase verifies the token's signature and checks the claims in the payload to ensure the user is authorized to access the requested data.
+
+### Benefits of JWT
+
+- **Stateless Authentication**: JWT allows for stateless authentication, meaning the server does not need to store session information. This reduces server load and improves scalability.
+- **Secure**: The use of digital signatures ensures that the token cannot be tampered with, providing a high level of security.
+- **Flexible**: JWT can be used to represent various types of claims, making it a versatile tool for authentication and authorization.
+
+## Semantic Layer
+
+### What is the Semantic Layer?
+
+The Semantic Layer in Happybase is designed to create a data-sharing layer that is easy to understand and use. It abstracts the complexity of raw data, presenting it in a user-friendly format that facilitates quick and accurate data analysis.
+
+### How the Semantic Layer Works
+
+1. **Data Abstraction**: The Semantic Layer translates raw data into meaningful business terms and concepts. This abstraction makes it easier for users to interact with the data without needing to understand the underlying technical details.
+2. **Metadata Management**: The Semantic Layer includes metadata that describes the data, such as definitions, relationships, and business rules. This metadata helps users understand the context and meaning of the data.
+3. **Query Optimization**: The Semantic Layer optimizes queries to ensure fast and efficient data retrieval. It uses pre-defined queries and indexes to improve performance and reduce the load on the database.
+
+### Benefits of the Semantic Layer
+
+- **User-Friendly**: By presenting data in a familiar and understandable format, the Semantic Layer makes it easier for users to analyze and interpret the data.
+- **Improved Performance**: The Semantic Layer optimizes queries, leading to faster data retrieval and improved overall performance.
+- **Consistency**: The use of metadata ensures that data is consistently presented and understood across the organization, reducing the risk of misinterpretation.

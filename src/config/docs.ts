@@ -22,45 +22,40 @@ export const docsConfig: DocsConfig = {
       ],
     },
     {
-      title: "Documentation",
+      title: "Architecture",
       items: [
         {
-          title: "Introduction",
-          href: "/docs/documentation",
+          title: "Why tho?",
+          href: "/docs/motivations",
         },
         {
-          title: "Components",
-          href: "/docs/documentation/components",
+          title: "Architecture",
+          href: "/docs/documentation/architecture",
         },
         {
-          title: "Configuration  Astro DB",
-          href: "/docs/documentation/components",
-          disabled: true,
-        },
-        {
-          title: "Search (Fuse.js)",
-          href: "/docs/in-progress",
-          disabled: true,
+          title: "Concepts",
+          href: "/docs/documentation/concepts",
         },
       ],
     },
     {
-      title: "Pages",
+      title: "Commerce",
       items: [
         {
-          title: "Landing",
-          href: "/docs/in-progress",
-          disabled: true,
+          title: "Stripe Connect",
+          href: "/docs/documentation/commerce/stripe-connect",
         },
         {
-          title: "Changelog",
-          href: "/docs/in-progress",
-          disabled: true,
+          title: "Portals",
+          href: "/docs/documentation/commerce/portals",
         },
         {
-          title: "Wait List",
-          href: "/docs/in-progress",
-          disabled: true,
+          title: "Payment Link Flow",
+          href: "/docs/documentation/commerce/payment-links",
+        },
+        {
+          title: "Handling Data Fulfillment",
+          href: "/docs/documentation/commerce/data-fulfillment",
         },
       ],
     },
