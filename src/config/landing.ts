@@ -2,26 +2,26 @@ import type { InfoLdg } from "@/types";
 
 export const infos: InfoLdg[] = [
   {
-    title: "Replicating your entire warehouse isn't the way to go",
+    title: "Why use notion-paywall when you can use 40+ other tools?",
     description:
-      "Happybase allows you to turn your data into an asset, and safely control who can access it.",
+      "Happybase allows you to break from the shackles of a single platform and turn any tool that supports Iframes into a paywall.",
     image: "/images/blog/placeholder-about.jpg",
     list: [
       {
         title: "Secure",
-        description: "Enjoy the peace of mind knowing the you aren't replicating your entire warehouse to someone elses infrastructure.",
+        description: "Your data is safe with us. We use the latest encryption and security measures to ensure your data is protected.",
         icon: "lucide:lock",
       },
       {
-        title: "Collaborative",
-        description: "It's not just an endpoint, it's a collaborative ecosystem for external data partnerships.",
+        title: "Flexible",
+        description: "As an indie developer, you need a platform that can adapt to your changing needs. Happybase is designed to be flexible and scalable, allowing you to adapt to your changing needs.",
         icon: "lucide:sprout",
       },
       {
-        title: "Flexible",
+        title: "Dogfooded",
         description:
-          "Our platform is built to be flexible and scalable, allowing you to adapt to your changing needs.",
-        icon: "lucide:expand",
+          "We don't just talk our product, we use it daily. Some of our examples are used live with their own tweaks!",
+        icon: "lucide:paw-print",
       },
     ],
   },
@@ -54,23 +54,23 @@ export const infos: InfoLdg[] = [
 
 export const features = [
   {
-    title: "Realtime Collaboration",
+    title: "Flexible and scalable",
     description:
-      "Embed your apps in an iframe and share it with external stakeholders.",
+      "Choose from over 40+ tools to turn into a paywall",
     link: "/pricing",
     icon: "lucide:zap",
   },
   {
     title: "Access Control",
     description:
-      "Control who can access your data and documents with granular permissions.",
+      "Control who can access your data with token based authentication.",
     link: "/pricing",
     icon: "lucide:lock",
   },
   {
-    title: "Give query access to partners, customers, and LLM providers",
+    title: "Grow your product portfolio",
     description:
-      "Allow your partners, customers, and LLM providers to query your sementic layer to get insights into your data.",
+      "Turn your knowledge into a product without being tied to one platform",
     link: "/pricing",
     icon: "lucide:layers",
   },
@@ -82,16 +82,16 @@ export const features = [
     icon: "lucide:badge-dollar-sign",
   },
   {
-    title: "Presence",
+    title: "Analytics",
     description:
-      "Work on data initiatives togther with external partners and customers.",
+      "Get revnue and visitor analytics for your paywalled content",
     link: "/pricing",
     icon: "lucide:scan-eye",
   },
   {
     title: "Notifications",
     description:
-      "Get notified of changes in your teammates' documents and comments.",
+      "Get notified of changes in your audience and new visitors",
     link: "/pricing",
     icon: "lucide:bell",
   },

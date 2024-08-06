@@ -14,24 +14,22 @@ export const navMenuConfig: NavMenuConfig = {
           forceReload: true,
         },
         {
+          title: "Compatibility (Comming soon!)",
+          href: "/compatibility-matrics",
+          description: "Check out the list of tools we support.",
+          image: "/images/examples/pricing.jpg",
+        },
+        {
           title: "Pricing",
           href: "/pricing",
           description: "Pricing cards, FAQs and more content with price.",
           image: "/images/examples/pricing.jpg",
         },
         {
-          title: "Hex Example",
-          href: "https://app.happybase.cp/portal/hex-example",
-          description:
-            "Check out the demonstration Hex portal",
-          image: "/images/examples/waitlist.jpg",
-          forceReload: true,
-        },
-        {
-          title: "Observable Example (Coming soon!)",
+          title: "Examples (Coming soon!)",
           href: "",
           description:
-            "Check out the demonstration Observable portal",
+            "Check out a few demonstration portals",
           image: "/images/examples/waitlist.jpg",
           forceReload: true,
         },
@@ -40,11 +38,5 @@ export const navMenuConfig: NavMenuConfig = {
 
   ],
   links: [
-     {
-       title: "Documentation",
-       href: "/docs/getting-started/",
-       description: "Learn more about the features and how to use them.",
-       image: "/images/examples/image.jpg",
-     },
   ],
 };
