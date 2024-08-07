@@ -2,7 +2,7 @@ import type { InfoLdg } from "@/types";
 
 export const infos: InfoLdg[] = [
   {
-    title: "Why use notion-paywall when you can use 40+ other tools?",
+    title: "Why use notion-paywall when you can use 12+ other tools?",
     description:
       "Happybase allows you to break from the shackles of a single platform and turn any tool that supports Iframes into a paywall.",
     image: "/images/blog/placeholder-about.jpg",
@@ -56,7 +56,7 @@ export const features = [
   {
     title: "Flexible and scalable",
     description:
-      "Choose from over 40+ tools to turn into a paywall",
+      "Choose from over 12+ tools to turn into a paywall",
     link: "/pricing",
     icon: "lucide:zap",
   },
