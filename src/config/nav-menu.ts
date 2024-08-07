@@ -15,7 +15,7 @@ export const navMenuConfig: NavMenuConfig = {
         },
         {
           title: "Compatibility (Comming soon!)",
-          href: "/compatibility-matrics",
+          href: "/",
           description: "Check out the list of tools we support.",
           image: "/images/examples/pricing.jpg",
         },
