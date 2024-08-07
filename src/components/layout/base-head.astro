@@ -55,8 +55,6 @@ const {
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
 
-
-
 <!-- Dark mode with prevent flickering flash between navigations -->
 <script is:inline>
   !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="VKm5JWiTQDZPwDxwkghLo0a7asJQxOMP";;analytics.SNIPPET_VERSION="5.2.0";
@@ -64,12 +62,8 @@ const {
   analytics.page();
   }}();
 
-  window.intercomSettings = {
-    api_base: "https://api-iam.intercom.io",
-    app_id: "kz8t3t7h",
-  };
-
-  (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/kz8t3t7h';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+  !function(w,d){function e(e,n){w.ServiceBell.q=w.ServiceBell.q||[],w.ServiceBell.q.push([e,n])}if(!w.ServiceBell){var i=function(n){for(var i=arguments.length,r=new Array(i>1?i-1:0),c=1;c<i;c++)r[c-1]=arguments[c];e(n,r)};["init","identify","dial","alert","bookMeeting","hide","show","expand","collapse","connect","disconnect"].forEach((function(r){i[r]=function(){for(var i=arguments.length,r=new Array(i),c=0;c<i;c++)r[c]=arguments[c];e(n,r)}})),w.ServiceBell=i}var s=d.createElement("script");s.id="service-bell-script",s.src="https://cdn.servicebell.com/main.js",s.async=1;var r=d.getElementsByTagName("script")[0];r.parentNode.insertBefore(s,r)}(window,document);
+  ServiceBell("init", "b951bf1ae1c8405b8f7a47ae2a153512", { mode: "iframe-jit" });
 </script>
 
 <ViewTransitions />
