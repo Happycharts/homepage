@@ -38,6 +38,9 @@ dependencies:
   '@iconify-json/ri':
     specifier: ^1.1.20
     version: 1.1.21
+  '@intercom/messenger-js-sdk':
+    specifier: ^0.0.13
+    version: 0.0.13
   '@radix-ui/react-accordion':
     specifier: ^1.1.2
     version: 1.2.0(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
@@ -1168,6 +1171,10 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@intercom/messenger-js-sdk@0.0.13:
+    resolution: {integrity: sha512-htSK24+TywrsPy97yuTruAKsBIZIkzPktauO2aJqLmN4XgeepvUOkL13ryV2Y5H3tE3EuJQzJNcsRSXr+cRfkw==}
+    dev: false
 
   /@isaacs/cliui@8.0.2:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
