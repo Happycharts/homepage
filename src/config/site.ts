@@ -3,7 +3,7 @@ import type { SidebarNavItem, SiteConfig } from "@/types";
 export const siteConfig: SiteConfig = {
   name: "Happybase",
   description:
-    "Endlessly flexible access portals for commercializing your data ",
+    "Endlessly flexible paywall for indie makers and ceiling breakers",
   url: "https://www.happybase.co",
   ogImage: "https://www.happybase.co/og.jpg",
   links: {
