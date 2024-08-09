@@ -77,14 +77,14 @@ export const features = [
   {
     title: "Embedded Paywall via Stripe Connect",
     description:
-      "Turn your data into a product and sell access to it via our Stripe Connect integration.",
+      "Turn your content into a product and sell access to it via our Stripe Connect integration.",
     link: "/pricing",
     icon: "lucide:badge-dollar-sign",
   },
   {
     title: "Analytics",
     description:
-      "Get revnue and visitor analytics for your paywalled content",
+      "Get revenue and visitor analytics for your paywalled content",
     link: "/pricing",
     icon: "lucide:scan-eye",
   },
