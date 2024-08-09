@@ -1,8 +1,8 @@
 ---
-title: "Top 6 creator paywalls compared"
+title: "Top 5 creator paywalls compared"
 description: "Let's look at some of the options for paywalls out there."
 pubDate: "Aug 09 2024"
-cover: "/images/blog/placeholder-2.jpg"
+cover: "/images/blog/indie-paywalls.png"
 category: "comparison"
 ---
 
