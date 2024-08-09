@@ -14,7 +14,7 @@ export const navMenuConfig: NavMenuConfig = {
           forceReload: true,
         },
         {
-          title: "Compatibility (Comming soon!)",
+          title: "Compatibility (Coming soon!)",
           href: "/",
           description: "Check out the list of tools we support.",
           image: "/images/examples/pricing.jpg",
