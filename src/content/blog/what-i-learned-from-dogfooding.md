@@ -38,9 +38,7 @@ The first iteration of the payment portal used IFrames, and while I really liked
 
 Eventually, I opted to switch to a regular dynamica portal much like Gumroad, knowing that it would be more secure, and would allow me to build a more robust and feature rich product.
 
-So with that being said, when I started applying my pattern matching concepts internally, the feedback (and results) were amazing. A few key things started happening. First, I began receiving 100% more excited feedback about the onboarding and portal process. Next, signups have begun skyrocketing with direct attribution to the change on the homepage to the dogfooded portal. 
-
-While I liked the IFrame approach, it was clear that the portal was the way to go.
+So with that being said, when I started applying my pattern matching concepts internally, the feedback (and results) were amazing. A few key things started happening. First, I began receiving 100% more excited feedback about the onboarding and portal process. Next, signups have begun skyrocketing with direct attribution to the change on the homepage to the dogfooded portal. While I liked the IFrame approach, it was clear that the portal was the way to go.
 
 ## What's next?
 
