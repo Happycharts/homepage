@@ -56,7 +56,10 @@ This is only the beginning of the journey, and I'm excited to see where it goes.
 
 I hope this post has been helpful in understanding the importance of dogfooding and how it can be used to improve your product. By understanding the patterns of your niche and building for the user in yourself, you can create a product that is more likely to be successful.
 
+If you're interested in creating your own portal, you can [sign up here](https://app.happybase.co/product/f002f944-ccf2-462a-9780-e473b9e2fb4e). 
 
+Hope to hear from you soon!
 
-
-
+**James Bohrman**
+<br />
+**Founder @ Happybase**
