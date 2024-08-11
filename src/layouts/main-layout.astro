@@ -56,6 +56,9 @@ const { title, description, mainClass } = Astro.props;
 
   <main class={cn(mainClass)}>
     <slot />
+    <script is:inline>
+      importScripts('https://load.fomo.com/widget/fomo-sw.js');
+    </script>
   </main>
 
   <Footer />
