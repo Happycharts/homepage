@@ -4,31 +4,6 @@ import MainLayout from "@/layouts/main-layout.astro";
 import { cn } from "@/lib/utils";
 import { Icon } from "astro-icon/components";
 import * as amplitude from '@amplitude/analytics-node';
-
-amplitude.init('fb90e4693c950a19b4559138dce3eab7');
-
-function trackTrialButtonClick() {
-  const trialButton = document.getElementById('trial-button');
-  
-  if (trialButton) {
-    trialButton.addEventListener('click', (e) => {
-      // Prevent default if you want to do something before navigation
-      // e.preventDefault();
-
-      // Track the event with Amplitude
-      amplitude.track('Trial Button Clicked', {
-        buttonText: (e.target as HTMLAnchorElement).textContent,
-        url: (e.target as HTMLAnchorElement).href
-      });
-
-      // If you prevented the default action, you can navigate manually after tracking
-      // window.location.href = (e.target as HTMLAnchorElement).href;
-    });
-  }
-}
-
-// Call the function when the DOM is loaded
-document.addEventListener('DOMContentLoaded', trackTrialButtonClick);
 ---
 
 <MainLayout title="Pricing" mainClass="flex-1 bg-background-200">
