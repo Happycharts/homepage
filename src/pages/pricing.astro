@@ -58,7 +58,7 @@ import { Icon } from "astro-icon/components";
         <a 
         href="https://app.happybase.co/product/f002f944-ccf2-462a-9780-e473b9e2fb4e" 
         class={cn(buttonVariants({ size: "lg" }))}
-        onclick="window.jitsu.track('Trial Event', { plan: 'Happy Core Plan', price: '$98/mo' }); return true;"
+        onclick="jitsu.track('Trial Event', { plan: 'Happy Core Plan', price: '$98/mo' });"
       >
         Start 7-day free trial
       </a>
