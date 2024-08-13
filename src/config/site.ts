@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
   description:
     "Endlessly flexible paywall for indie makers and ceiling breakers",
   url: "https://www.happybase.co",
-  ogImage: "https://www.happybase.co/og.jpg",
+  ogImage: "/og.jpg",
   links: {
     twitter: "",
     github: "https://github.com/happycharts/happybase",
