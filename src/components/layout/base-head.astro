@@ -76,6 +76,27 @@ const {
     }
   }}();
 </script>
+
+<script is:inline>
+  (function() {
+    if (typeof window === 'undefined') return;
+    if (typeof window.signals !== 'undefined') return;
+    var script = document.createElement('script');
+    script.src = 'https://cdn.cr-relay.com/v1/site/c945e1c9-0dde-4359-8e37-5033f681f05f/signals.js';
+    script.async = true;
+    window.signals = Object.assign(
+      [],
+      ['page', 'identify', 'form'].reduce(function (acc, method){
+        acc[method] = function () {
+          signals.push([method, arguments]);
+          return signals;
+        };
+       return acc;
+      }, {})
+    );
+    document.head.appendChild(script);
+  })();
+</script>
 <script type="text/javascript" src="https://load.fomo.com/api/v1/eQHMqzZRRoxIbHN-Q7tCSA/load.js" async></script>
 <script async src="https://cdp.happybase.co/p.js"></script>
 <!-- Dark mode with prevent flickering flash between navigations -->
