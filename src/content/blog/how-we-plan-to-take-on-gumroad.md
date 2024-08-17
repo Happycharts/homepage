@@ -2,8 +2,8 @@
 title: "How we plan to take on Gumroad in the trillion dollar social commerce market"
 description: "When your competition already has a bad reputation and gets sold back to the founder for pennies, you know there's a gap in the market ready to be filled."
 pubDate: "Aug 16 2024"
-cover: "/images/blog/indie-paywalls.png"
-category: "comparison"
+cover: "/images/blog/competition.png"
+category: "insights"
 ---
 
 I love competition to be honest, and I've never been afraid of sharing my ideas in the open with the world. It's always been my belief that if someone can do what I'm building better, then let them, but I'm fully confident in my ability to mix creative means with heuristics to spin together products that compete in ways that are hard to replicate.
