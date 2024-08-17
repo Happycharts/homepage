@@ -33,7 +33,7 @@ For us to really compete with Gumroad, we're going to get creative with our feat
 
 #### Happybase Marketplace
 
-Obviously, we're going to be building a marketplace for creators to sell their products. This is going to be done with a lot of thought and care, and we're going to be building a lot of features that Gumroad doesn't have, so if you'd like to be a part of the early days of this project, please reach out to me on Twitter or Discord.
+Obviously, we're going to be building a marketplace for creators to sell their products. This is going to be done with a lot of thought and care, and we're going to be building a lot of features that Gumroad doesn't have, so if you'd like to be a part of the early days of this project, please reach out to me on WhatsApp.
 
 #### Metrics and reporting
 
@@ -45,9 +45,19 @@ Which is going to be extremely powerful because it will adhere to the Segment sp
 
 One of the concepts I have planned at the moment is a secret project involving IFrames that broke off from the original Happybase iteration. I can't say much about it, but it's going to be pretty wild and the partnerships potential in it is huge.
 
+### Financials
+
+The reason I say we can bootstrap this project and reach scale is that we're going to be taking advantage of as many low-CAC channels as possible while leveraging the values of our community to grow organically. 
+
+As far as the financials go, we're planning to start off by raising a $520k pre-seed from angels and friends, and from there I believe our main KPI should be to reach 250 creators on the platform, which would be significantly past the break-even point for a prospective investor at the pre-seed stage. 
+
+This should be achievable in 6-12 month targeting SEM against Gumroad and other creator keywords such as Notion and Coda templates, and I'm confident we can reach that goal by Q3 2025.
+
+If you're interested in investing with us, please shoot me a message on  WhatsApp.
+
 
 ## Conclusion: The future of Happybase
 
-Taking on the incumbent is never easy, but I'm confident we can do it with the right reasources and the right team. If you're interested in collaborating with me on this project, please reach out to me on Twitter or Discord.
+Taking on the incumbent is never easy, but I'm confident we can do it with the right reasources and the right team. If you're interested in collaborating with me on this project, please reach out to me on WhatsApp.
 
 Also, if you'd like to be an affiliate for Happybase, sign up [here](https://happybase.getrewardful.com/signup).
