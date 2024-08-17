@@ -43,11 +43,11 @@ Which is going to be extremely powerful because it will adhere to the Segment sp
 
 #### Secret Labs
 
-One of the projects I have planned at the moment is a secret project involving IFrames that broke off from the original Happybase iteration. I can't say much about it, but it's going to be pretty wild and the partnerships potential in it is huge.
+One of the concepts I have planned at the moment is a secret project involving IFrames that broke off from the original Happybase iteration. I can't say much about it, but it's going to be pretty wild and the partnerships potential in it is huge.
 
 
 ## Conclusion: The future of Happybase
 
 Taking on the incumbent is never easy, but I'm confident we can do it with the right reasources and the right team. If you're interested in collaborating with me on this project, please reach out to me on Twitter or Discord.
 
-Also, if you're like to be an affiliate for Happybase, sign up [here](https://happybase.getrewardful.com/signup).
+Also, if you'd like to be an affiliate for Happybase, sign up [here](https://happybase.getrewardful.com/signup).
